@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>高雄旅遊資訊網</title>
+    <link type="text/css" rel="stylesheet" href="src/css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="src/css/style.css"/>
+</head>
+<body>
+
+    <!--Scroll Bar-->
+    <header id="header">
+        <h1>高雄旅遊資訊</h1>
+        <div class="searchBar">
+            <select>
+                <option>--請選擇地區--</option>
+                <option>苓雅區</option>
+                <option>三民區</option>
+                <option>新興區</option>
+                <option>鹽埕區</option>
+            </select>
+        </div>
+    </header>
+
+    <!--Hot Spot-->
+
+    <div class="container">
+        <div class="sub-title">
+            <p>熱門行政區</p>
+            <div class="input-btn">
+                <input type="button" value="苓雅區" class="btn" id="btn-1">
+                <input type="button" value="三民區" class="btn" id="btn-2">
+                <input type="button" value="新興區" class="btn"
+                id="btn-3">
+                <input type="button" value="鹽埕區" class="btn" id="btn-4">
+            </div>           
+        </div>
+    </div>
+
+    <!--Dash Line-->
+    
+    <div class="dash-line"></div>
+    <div class="dash-icon">
+        <img src="src/img/icons_down.png">
+    </div>
+
+    <!--Result Section-->
+    <section>
+        <h2 class="result-title">--請選擇地區--</h2>
+        <div class="data-container">      
+        </div>
+        <a class="back"  href="#header">
+            <img src="src/img/btn_goTop.png">
+        </a>
+    </section>
+    
+    <!--Footer-->
+    <footer>
+        <p>高雄旅遊網</p>
+        <p class="source">資料來源：高雄市政府</p>
+    </footer>
+    
+    <script src='./src/js/main.js'></script>
+</body>
+</html>
